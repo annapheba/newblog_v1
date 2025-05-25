@@ -52,12 +52,12 @@ body {
   font-size: 2.5rem;
 }
 .display-7 {
-  font-family: 'Inter Tight', sans-serif;
-  font-size: 1.4rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.6rem;
   line-height: 1.3;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -91,9 +91,9 @@ body {
     line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.28rem;
+    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 @media (min-width: 992px) and (max-width: 1400px) {
@@ -118,9 +118,9 @@ body {
     line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-7 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62))));
+    font-size: 1.28rem;
+    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 62rem) / (87 - 62))));
   }
 }
 /* Buttons */
@@ -645,14 +645,14 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Inter Tight', sans-serif;
-  font-size: 1.4rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.6rem;
   line-height: 1.3;
   font-weight: 400;
   border-radius: 40px !important;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 .form-control:hover,
 .form-control:focus {
@@ -660,13 +660,13 @@ a:hover {
   border-color: #bcef9b !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Inter Tight', sans-serif;
-  font-size: 1.4rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.6rem;
   line-height: 1.3;
   font-weight: 400;
 }
 .form-control:-webkit-input-placeholder > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 blockquote {
   border-color: #bcef9b;
@@ -1338,58 +1338,13 @@ a {
     padding: 1rem;
   }
 }
-.cid-uKV3SHyvdb {
-  display: flex;
-  padding-top: 6rem;
+.cid-uMeQvwTZ75 {
+  padding-top: 11rem;
   padding-bottom: 6rem;
-  background-color: #a0e1e1;
+  background-color: #edefeb;
 }
-.cid-uKV3SHyvdb .content-wrap {
-  padding: 5rem 1rem;
-}
-@media (min-width: 992px) {
-  .cid-uKV3SHyvdb .content-wrap {
-    padding: 5rem 3rem;
-  }
-}
-@media (min-width: 768px) {
-  .cid-uKV3SHyvdb {
-    align-items: center;
-  }
-  .cid-uKV3SHyvdb .row {
-    justify-content: center;
-  }
-}
-@media (max-width: 991px) and (min-width: 768px) {
-  .cid-uKV3SHyvdb .content-wrap {
-    min-width: 50%;
-  }
-}
-@media (max-width: 767px) {
-  .cid-uKV3SHyvdb {
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  .cid-uKV3SHyvdb .mbr-row {
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
-  .cid-uKV3SHyvdb .content-wrap {
-    width: 100%;
-  }
-}
-.cid-uKV3SHyvdb .mbr-section-title {
-  text-align: center;
-  color: #000000;
-}
-.cid-uKV3SHyvdb .mbr-text,
-.cid-uKV3SHyvdb .mbr-section-btn {
-  text-align: center;
-  color: #260a30;
-}
-.cid-uKV3SHyvdb .mbr-description {
-  text-align: center;
-  color: #ffffff;
+.cid-uMeQvwTZ75 .content-head {
+  max-width: 800px;
 }
 .cid-uL4dVZ1S8g {
   padding-top: 0rem;
